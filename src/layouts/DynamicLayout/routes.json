@@ -1,0 +1,50 @@
+[
+  {
+    "name": "a",
+    "path": "/a",
+    "routes": [
+      {
+        "name": "a-a",
+        "path": "/a/a",
+        "icon": "QueryOutlined",
+        "routes": [
+          {
+            "name": "a-a-a",
+            "path": "/a/a/a",
+            "icon": "QueryOutlined"
+          },
+          {
+            "name": "a-a-b",
+            "path": "/a/a/b",
+            "icon": "QueryOutlined"
+          }
+        ]
+      },
+      { "name": "a-b", "path": "/a/b", "icon": "QueryOutlined" }
+    ]
+  },
+  {
+    "name": "b",
+    "path": "/b",
+    "routes": [
+      {
+        "name": "b-a",
+        "path": "/b/a",
+        "icon": "QueryOutlined",
+        "routes": [
+          {
+            "name": "b-a-a",
+            "path": "/b/a/a",
+            "icon": "QueryOutlined"
+          },
+          {
+            "name": "b-a-b",
+            "path": "/b/a/b",
+            "icon": "QueryOutlined"
+          }
+        ]
+      },
+      { "name": "b-b", "path": "/b/b", "icon": "QueryOutlined" }
+    ]
+  }
+]

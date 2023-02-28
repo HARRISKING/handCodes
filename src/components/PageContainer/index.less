@@ -1,0 +1,41 @@
+@import "~@/styles/var.less";
+
+.m-page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: @Sp-6;
+
+    .ant-space-item {
+      display: flex;
+      align-items: center;
+    }
+
+    &-title {
+      &-back {
+        font-size: 20px;
+        color: @M2;
+        cursor: pointer;
+      }
+
+      &-text {
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #000000;
+        line-height: 22px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  &-content {
+    flex: 1;
+    padding: @Sp-5 @Sp-6;
+    background-color: #fff;
+  }
+}

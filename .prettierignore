@@ -1,0 +1,9 @@
+# file
+**/*.svg
+**/*.ejs
+**/*.html
+
+# umi
+.umi
+.umi-production
+.umi-test
